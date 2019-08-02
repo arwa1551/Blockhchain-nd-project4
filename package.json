@@ -1,0 +1,21 @@
+{
+  "name": "project4",
+  "version": "1.0.0",
+  "description": "In this project you will connect your private Blockchain that was runing on your machine to a web API. You will build a REST API using Node.js framework that will interface with the private Blockchain, by configuring API for your private blockchain you expose functionality that can be consumed by several types of web clients. You will be able to post and retrieve data to and from an endpoint located on the server using POST/GET blocks.   This is an important step, and one that is required in developing web application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-message": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^3.1.9-1",
+    "cryptojs": "^2.5.3",
+    "express": "^4.17.0",
+    "hex2ascii": "0.0.3",
+    "level": "^5.0.1"
+  }
+}
